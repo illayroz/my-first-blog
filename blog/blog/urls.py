@@ -19,4 +19,5 @@ from django.conf.urls import include, patterns, url
 urlpatterns = [
     url(r'^grappelli/', include('grappelli.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'', include('blog1.urls')),
 ]
